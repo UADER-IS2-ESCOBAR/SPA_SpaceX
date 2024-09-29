@@ -1,0 +1,39 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#rocket-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 16px; /* Espacio entre las cards */
+  padding: 16px;
+}
+
+.rocket-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.rocket-card img {
+  width: 100%;
+  height: auto;
+}
+
+.rocket-card h2 {
+  margin: 0;
+  padding: 16px;
+  font-size: 1.2rem;
+}
+
+.rocket-card:hover {
+  transform: scale(1.05);
+}

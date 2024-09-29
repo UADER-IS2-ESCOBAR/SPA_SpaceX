@@ -1,0 +1,28 @@
+{
+  "name": "spacex-spa",
+  "version": "1.0.0",
+  "description": "SPA para el consumo de la API de Space X",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UADER-IS2-ESCOBAR/SPA-spaceX.git"
+  },
+  "author": "Santiago Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UADER-IS2-ESCOBAR/SPA-spaceX/issues"
+  },
+  "homepage": "https://github.com/UADER-IS2-ESCOBAR/SPA-spaceX#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
